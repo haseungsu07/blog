@@ -1,0 +1,201 @@
+/*div 부분*/
+body{
+  background:#7091bb;
+}
+.htext {
+  background: #001127;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  width: 100%; /* 필요에 따라 너비 조정 */
+}
+
+.himage{
+  position: relative;
+}
+
+.nav {
+  float: left;
+  background: #0b144b;
+  width: 200px;
+  height: 100vh;
+}
+.article{
+  float: left;
+  margin: 10px;
+  background: #001127;
+  width: calc(100% - 220px);
+  height: 100vh;
+}
+li{
+  justify-content: center;
+  margin: 10px;
+  
+}
+h1{
+  position: relative;
+  margin: 50px;
+  top: 35%;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+#main{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*카드 올라오는 부분*/
+
+.card_border{
+  float:left;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.card {
+  
+  position: relative;
+  height: 200px;
+  width: 300px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffff80;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover .card__content {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card:hover svg {
+  scale: 0;
+}
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+
+/* 버튼 태그 */
+.btn_tag{
+  float: left;
+  margin-left: 10px;
+  margin-top : 17px; 
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .4s;
+}
+
+.card_text{
+  color: #fff;
+  float: left
+}
+
+/* 악기 태그 */
+#Bass{
+  background-color: #764888;
+  border: 2px dashed #764888;
+  color: #fff;
+}
+
+#Piano{
+  background-color: #da8766;
+  border: 2px dashed #da8766;
+  color: #fff;
+}
+
+#AG{
+  background-color: #e0d56f;
+  border: 2px dashed #e0d56f;
+  color: #000000;
+}
+
+#EG{
+  background-color: #6fc6e0;
+  border: 2px dashed #6fc6e0;
+  color: #000000;
+}
+
+#Drum{
+  background-color: #716fe0;
+  border: 2px dashed #716fe0;
+  color: #fff;
+}
+
+/* 주법 태그 */
+
+#Slap{
+  background-color: #4728b8;
+  border: 2px dashed #4728b8;
+  color: #fff;
+}
+
+/* 장르 태그 */
+
+#Minor{
+  background-color: #043f30;
+  border: 2px dashed #043f30;
+  color: #fff;
+}
+
+#swing{
+  background-color: #afe7d6;
+  border: 2px dashed #afe7d6;
+  color: #000000;
+}
+
+#bossa{
+  background-color: #b5afe7;
+  border: 2px dashed #b5afe7;
+  color: #000000;
+}
+
+/* 기타 태그 */
