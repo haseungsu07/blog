@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>HeHe</title>
+<link rel="stylesheet" href="site.css">
+<link rel="stylesheet" href="bd.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <div class="htext">
+        <img src="img/title.png" height="165%" class="himage">
+    </div>
+</head>
+<body>
+    <div class="middle">
+        <div class="nav">
+            <ul>
+                <h2 class="yellow">Menu</h2>
+                <li class="yellow"><a href="index.html" class="yellow">Home</a></li>
+                <li class="yellow"><a href="Funk.html" class="yellow">Funk</a></li>
+                <li class="yellow"><a href="Jazz.html" class="yellow">Jazz</a></li>
+            </ul>
+        </div>
+        <div class="article" id="thumb">
+            <img src="img/sky.png" height="280px">
+            <div class="music_card">
+                <p class="main">JAZZ 재즈</p>
+                <p class="sub">-------------------------</p>
+                <p class="sub" id="r_jazz">'Jazzzzz....'</p>
+                <div class="genre">
+                    <button class="bd1" onclick="goToScroll('swing_title')">Swing 스윙</button>
+                    <button class="bd1" onclick="goToScroll('bossa_title')">Bossa Nova 보사노바</button>
+                    <button class="bd1">Jazz Fusion 재즈퓨전</button>
+                    <button class="bd1">Ballad 발라드</button>
+                </div>
+                <div class="main2div">
+                    <p class="main2" id="swing_title">Swing 스윙</p>
+                    <div class="text_line"></div>
+                </div>
+                <div class="out_card_border">
+                    <div class="card_border">
+                        <div class="card">
+                            <img src="img/chicken.png" z-index: -1; class="card_img">
+                            <div class="card__content">
+                                <p class="card__title">The Chicken</p>
+                                <p class="card__description">가장 좋아하는 Funk 중 하나, 베이스라인이 그냥 FUNKY 미쳤다.<br>원래는 핑거로 치지만 슬랩도 만들어냈다 걍.</p>
+                            </div>
+                        </div>
+                        <p class="card_text">The Chicken </p>
+                        <button class="btn_tag" id="Bass"> Bass</button>
+                        <button class="btn_tag" id="Slap"> Slap</button>
+                    </div> 
+                    <div class="card_border">
+                        <div class="card">
+                            <img src="img/Kerning.png" z-index: -1; class="card_img">
+                            <div class="card__content">
+                                <p class="card__title">Kerning City</p>
+                                <p class="card__description">근본없는 게임과 달리 근본있는 펑크.<br>Am키의 펑키함을 느낄 수 있다.</p>
+                            </div>
+                        </div>
+                        <p class="card_text">Kerning City</p>
+                        <button class="btn_tag" id="Piano"> Piano</button>
+                        <button class="btn_tag" id="Minor"> Minor</button>
+                    </div>
+                    <div class="card_border">
+                        <div class="card">
+                            <img src="img/Defied.png" z-index: -1; class="card_img">
+                            <div class="card__content">
+                                <p class="card__title">Funk Defied</p>
+                                <p class="card__description">높은 난이도의 몇안되는 통기타 슬랩곡.<br>모든 주법을 다 사용하는 난이도를 자랑한다.</p>
+                            </div>
+                        </div>
+                        <p class="card_text">Funk Defied</p>
+                        <button class="btn_tag" id="AG"> A.Guitar</button>
+                        <button class="btn_tag" id="Bass"> Bass</button>
+                        <button class="btn_tag" id="Slap"> Slap</button>   
+                    </div>
+                    <div class="card_border">
+                        <div class="card">
+                            <img src="img/Cosmic.png" z-index: -1; class="card_img">
+                            <div class="card__content">
+                                <p class="card__title">Cosmic Sans</p>
+                                <p class="card__description">와 샌즈! 아니다. 슬랩 펑크하면 제일 먼저 떠오르는 곡.<br>후반 베이스 솔로가 지린다.</p>
+                            </div>
+                        </div>
+                        <p class="card_text">Cosmic Sans</p>
+                        <button class="btn_tag" id="EG"> E.Guitar</button>
+                        <button class="btn_tag" id="Bass"> Bass</button>
+                        <button class="btn_tag" id="Slap"> Slap</button>   
+                    </div>
+                </div>
+                <div class="main2div" id="bossa_title">
+                    <p class="main2">Bossa Nova 보사노바</p>
+                    <div class="text_line"></div>
+                </div>
+                <div class="out_card_border">
+                    <div class="card_border">
+                        <div class="card">
+                            <img src="img/chicken.png" z-index: -1; class="card_img">
+                            <div class="card__content">
+                                <p class="card__title">The Chicken</p>
+                                <p class="card__description">가장 좋아하는 Funk 중 하나, 베이스라인이 그냥 FUNKY 미쳤다.<br>원래는 핑거로 치지만 슬랩도 만들어냈다 걍.</p>
+                            </div>
+                        </div>
+                        <p class="card_text">The Chicken </p>
+                        <button class="btn_tag" id="Bass"> Bass</button>
+                        <button class="btn_tag" id="Slap"> Slap</button>
+                    </div> 
+                    <div class="card_border">
+                        <div class="card">
+                            <img src="img/Kerning.png" z-index: -1; class="card_img">
+                            <div class="card__content">
+                                <p class="card__title">Kerning City</p>
+                                <p class="card__description">근본없는 게임과 달리 근본있는 펑크.<br>Am키의 펑키함을 느낄 수 있다.</p>
+                            </div>
+                        </div>
+                        <p class="card_text">Kerning City</p>
+                        <button class="btn_tag" id="Piano"> Piano</button>
+                        <button class="btn_tag" id="Minor"> Minor</button>
+                    </div>
+                    <div class="card_border">
+                        <div class="card">
+                            <img src="img/Defied.png" z-index: -1; class="card_img">
+                            <div class="card__content">
+                                <p class="card__title">Funk Defied</p>
+                                <p class="card__description">높은 난이도의 몇안되는 통기타 슬랩곡.<br>모든 주법을 다 사용하는 난이도를 자랑한다.</p>
+                            </div>
+                        </div>
+                        <p class="card_text">Funk Defied</p>
+                        <button class="btn_tag" id="AG"> A.Guitar</button>
+                        <button class="btn_tag" id="Bass"> Bass</button>
+                        <button class="btn_tag" id="Slap"> Slap</button>   
+                    </div>
+                    <div class="card_border">
+                        <div class="card">
+                            <img src="img/Cosmic.png" z-index: -1; class="card_img">
+                            <div class="card__content">
+                                <p class="card__title">Cosmic Sans</p>
+                                <p class="card__description">와 샌즈! 아니다. 슬랩 펑크하면 제일 먼저 떠오르는 곡.<br>후반 베이스 솔로가 지린다.</p>
+                            </div>
+                        </div>
+                        <p class="card_text">Cosmic Sans</p>
+                        <button class="btn_tag" id="EG"> E.Guitar</button>
+                        <button class="btn_tag" id="Bass"> Bass</button>
+                        <button class="btn_tag" id="Slap"> Slap</button>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="y_line"></div>
+        <p class="sub">© 2024 SeungSuHa. All rights reserved. haseungsu07@gmail.com</p>
+        <p class="sub">여기 뭐하는 데임?: 모르겠고 최적화 안할거임</p>
+        <button class="bd2" onclick='newPage("https://www.instagram.com/haseungsu07/")'>Instagram</button>
+        <button class="bd2" onclick='newPage("https://www.discord.com/users/655712653813088296")'>Discord</button>
+        <button class="bd2" onclick='newPage("https://github.com/haseungsu07")'>Github</button>
+    </footer>
+    <script src="site.js"></script>
+    <script src="jazz.js"></script>
+</body>
+</html>
