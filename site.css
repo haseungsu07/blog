@@ -13,8 +13,10 @@ body{
 }
 
 .genre{
+  justify-content: center;
   margin-top: 10px;
   text-align: center;
+  display: flex;
 }
 
 .main2div{
