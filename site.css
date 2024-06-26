@@ -17,6 +17,7 @@ body{
   margin-top: 10px;
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .main2div{
